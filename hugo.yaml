@@ -1,7 +1,7 @@
 baseURL: https://joyao.github.io
 
-languageCode: bn
-title: "John's Blog"
+languageCode: en
+title: "JY's Lab"
 
 # Use Hugo modules to add theme
 module:
@@ -23,13 +23,13 @@ languages:
   en:
     languageCode: en
     languageName: English
-    title: "John's Blog"
+    title: "JY's Lab"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
-    weight: 2
+  # zh-Hant:
+  #   languageCode: zh-Hant
+  #   languageName: 繁體中文
+  #   title: JY's Lab
+  #   weight: 2
 # default language for the content
 defaultContentLanguage: en
 
@@ -74,7 +74,7 @@ params:
 
   # Configure the number of section title visible in the top navbar
   topNavbar:
-    maxVisibleSections: 5
+    maxVisibleSections: 6
 
   # Configure various features of this theme
   features:
@@ -93,11 +93,11 @@ params:
       showAuthor: true # shows the author of post (defaults true)
       # Share post on different social media
       shareButtons:
-        facebook: true
-        twitter: true
+        facebook: false
+        twitter: false
         linkedin: true
-        reddit: true
-        whatsapp: true
+        reddit: false
+        whatsapp: false
         email: true
         # tumblr: true
         # pocket: true
@@ -188,9 +188,11 @@ params:
     flags:
       enable: true
       # # If you want to use different country flag for a language, specify them here.
-      # flagOverwrites:
-      #   - languageCode: en
-      #     countryCode: us
+      flagOverwrites:
+        - languageCode: en
+          countryCode: us
+        - languageCode: zh-Hant
+          countryCode: tw
 
     # Enable this to use `embed-pdf` shortcode.
     embedpdf:
@@ -280,7 +282,7 @@ params:
       enable: true
     # Show/hide credentials section in the footer. Default is "true".
     credentials:
-      enable: true
+      enable: false
 
     # Show/hide newsletter section in the footer. Default is "true".
     # Currently, it supports "mailchimp".
@@ -291,4 +293,4 @@ params:
 
     # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:
-      enable: true
+      enable: false

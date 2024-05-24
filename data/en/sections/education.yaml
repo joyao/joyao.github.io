@@ -4,101 +4,62 @@ section:
   id: education
   template: sections/education.html # Use "sections/education-alt.html for alternate template.
   enable: true
-  weight: 4
+  weight: 6
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
 
 degrees:
-- name: Ph.D in Quantum Cryptography
+- name: Master in Geospatial Information Science, Civil Engineering
   icon: fa-microscope
-  timeframe: 2016-2020
+  timeframe: 2016-2018
   institution:
-    name: ABC University of Technology
-    url: "#"
-    logo: /images/sections/education/tech_college.png
+    name: National Taiwan University
+    url: "https://www.ntu.edu.tw/english/"
+    logo: /images/sections/education/NTU_logo.png
     # Can optionally show a different logo for dark theme
     # darklogo: /images/sections/education/tech_college.png
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.6
-    outOf: 4
+  # grade: #(optional)
+  #   scale: CGPA
+  #   achieved: 3.6
+  #   outOf: 4
+  extracurricularActivities:
+  - Developed programs to process millions of waveform data for river roughness analysis which can achieve results in a short time and reduce the risk of field work.
+  - Developed a software for complex and multifunctional error adjustment processing and developing GUI and DLL as interfaces, can potentially save 3,000 USD per year.
+
   publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
-  - title: Nullam vitae orci tincidunt purus viverra pulvinar.
-    url: "#"
-- name: B.Sc. in Computer Science & Engineering
+  - title: "【Taiwan Research Highlight】 Sub-footprint LiDAR technique for riverbed grain size analysis"
+    url: "https://trh.gase.most.ntnu.edu.tw/en/article/content/157"
+  customSections: #(optional)
+    - name: Thesis
+      content: Sub-Footprint Roughness Analysis for Riverbeds using Full-Waveform LiDAR Data.
+      url: "https://hdl.handle.net/11296/rsufk3"
+
+- name: Exchange Student in Geodesy and Geomatics
   icon: fa-graduation-cap
-  timeframe: 2012-2016
+  timeframe: Feb 2016-Jul 2016
   institution:
-    name: University of XYZ
-    url: "#"
-    logo: /images/sections/education/university.jpg
+    name: Wuhan University (China)
+    url: "https://en.whu.edu.cn/"
+    logo: /images/sections/education/Wuhan_logo.png
     # Can optionally show a different logo for dark theme
     # darklogo: /images/sections/education/university.jpg
-  grade: #(optional)
-    scale: CGPA
-    achieved: 3.5
-    outOf: 4
-  takenCourses: #(optional)
-    # if true, the courses will be rendered as a table otherwise it will render as a list and the grades will be hidden.
-    showGrades: true
-    collapseAfter: 3
-    courses:
-    - name: Data Structures and Algorithm
-      achieved: 3.75
-      outOf: 4
-    - name: Network Security
-      achieved: 3.80
-      outOf: 4
-    - name: Operating System
-      achieved: 3.5
-      outOf: 4
-    - name: Artificial Intelligent
-      achieved: 3.75
-      outOf: 4
-  publications: #(optional)
-  - title: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    url: "#"
-  - title: Fusce eu augue ut odio porttitor pulvinar.
-    url: "#"
+
   extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-  custonSections: #(optional)
-    - name: Thesis
-      content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    - name: Supervisor
-      content: Fusce eu augue ut odio porttitor pulvinar.
-- name: Higher Secondary School Certificate
+  - The College of geomatics of Wuhan University is the most famous surveying college in Asia.
+  - Developed multi Synthetic-Aperture Radar (SAR) satellites signal data processing scripts by python.
+
+- name: B.Sc. in Geomatics, Land Economics
   icon: fa-university
-  timeframe: 2010-2012
+  timeframe: 2012-2016
   institution:
-    name: MST College of Science
-    url: "#"
-    logo: /images/sections/education/science_college.png
+    name: National Chengchi University
+    url: "https://www.nccu.edu.tw/index.php?Lang=en"
+    logo: /images/sections/education/NCCU_logo.png
     # Can optionally show a different logo for dark theme
-    # darklogo: /images/sections/education/science_college.png
-  grade: #(optional)
-    scale: GPA
-    achieved: 5
-    outOf: 5
+    # darklogo: /images/sections/education/university.jpg
   extracurricularActivities: #(optional)
-  - In vitae facilisis est, eget porta sem.
-  - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  - Duis sed massa feugiat, ornare justo et, aliquam est.
-  - Pellentesque ut fringilla magna.
-- name: Secondary School Certificate
-  icon: fa-school
-  timeframe: 2005-2010
-  institution:
-    name: JK School of Science
-  grade: #(optional)
-    scale: GPA
-    achieved: 4.5
-    outOf: 5
+  - Satellites SAR data processing, UAV images non-distortion processing and image detection, and LiDAR data processing.
+  - Developed a python based non distortion image processing program, which effectively saved 85% processing time
+  - Developed true ortho-image processing scripts using Python and OpenCV and fortunately to receive a subsidy from MOST (Ministry of Science and Technology)
+

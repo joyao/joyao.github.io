@@ -8,54 +8,33 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Software Engineer
+designation: Senior Software Firmware Engineer
 # your company information
 company:
-  name: Example Co.
-  url: "https://www.example.com"
+  name: Dell Technologies.
+  url: "https://www.dell.com"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: 'I am a passionate software engineer with x years of working experience. I built OSS tools for [Kubernetes](https://kubernetes.io/) using GO. My tools help people to deploy their workloads in Kubernetes. Sometimes, I work on some fun projects such as writing a theme, etc.'
+summary: "Having 2 years of sever BIOS, 10 years of python programming and 3 years of Web full-stack development experience, I'm responsible for various types of large-scale web systems, such as spatial data storage systems, urban planning, real estate, remote sensing, etc. With the passion on new techniques, I also enhanced my team's technical capabilities by introducing optimized development process and tools."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
 - name: Email
   icon: "fas fa-envelope"
-  url: "example@gmail.com"
+  url: "jyhsu506@gmail.com"
 
 - name: Github
   icon: "fab fa-github"
-  url: "https://www.github.com/example"
-
-- name: Stackoverflow
-  icon: "fab fa-stack-overflow"
-  url: "#"
+  url: "https://github.com/joyao"
 
 - name: LinkedIn
   icon: "fab fa-linkedin"
-  url: "#"
-
-- name: Twitter
-  icon: "fab fa-twitter"
-  url: "#"
-
-- name: Facebook
-  icon: "fab fa-facebook"
-  url: "#"
-
-- name: Mastadon
-  icon: "fab fa-mastodon"
-  url: "#"
-  rel: "me noopener"
-
-- name: ResearchGate
-  icon: "fab fa-researchgate"
-  url: "https://www.researchgate.net/profile/john-doe"
+  url: "https://www.linkedin.com/in/jy-hsu/"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
@@ -68,34 +47,44 @@ resourceLinks:
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
 - type: certification
-  name: Certified Kubernetes Security Specialist
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/f4bf92ed-8985-40b2-bc07-2f9308780854/kubernetes-security-specialist-logo-examdev.png"
+  name: AWS Certified Solutions Architect - Associate
+  url: "https://www.credly.com/badges/1cf6338d-b9ea-4fa0-a74b-ba2830eb30fb"
+  badge: "https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
 
 - type: certification
-  name: Istio and IBM Cloud Kubernetes Service
-  url: "https://www.credly.com/org/the-linux-foundation/badge/exam-developer-certified-kubernetes-security-specialist"
-  badge: "https://images.credly.com/size/680x680/images/8d34d489-84bf-4861-a4a0-9e9d68318c5c/Beyond_basics_of_Istio_on_Cloud_v2.png"
+  name: Dell Game Changer Award
+  url: "#"
+  badge: "https://projectvictor.com/pv/wp-content/uploads/2021/02/PMP-Logo-Project-Victor.png"
 
 - type: certification
-  name: Artificial Intelligence and Machine Learning
-  url: "https://www.credly.com/org/grupo-bancolombia/badge/artificial-intelligence-and-machine-learning"
-  badge: "https://images.credly.com/size/680x680/images/e027514f-9d07-4b29-862f-fe21a8aaebf1/ae.png"
+  name: Professional Engineer (PE) - Survey
+  url: "https://www.pcc.gov.tw/cp.aspx?n=CA5E4C285C0D7724"
+  badge: "https://www.tpsea.org.tw/Uploads/Shop/65ddad3b-8275-46f9-a315-8503d3289986.png"
 
-- type: soft-skill-indicator
-  name: Leadership
-  percentage: 85
-  color: blue
+- type: certification
+  name: Dell Game Changer Award
+  url: "#"
+  badge: "https://media.licdn.com/dms/image/C562DAQFGfR1cMWv7nw/profile-treasury-image-shrink_800_800/0/1668601978024?e=1716998400&v=beta&t=Tu69eO42-ATFHsYhmenW6FCBOX6L5_5tL0q9FmK0uk0"
 
-- type: soft-skill-indicator
-  name: Team Work
-  percentage: 90
-  color: yellow
+- type: certification
+  name: IThome Keep Sharing Award
+  url: "https://ithelp.ithome.com.tw/users/20108631/ironman/3629"
+  badge: "https://d1dwq032kyr03c.cloudfront.net/images/ironman_sticker/12/web.png?sticker"
 
-- type: soft-skill-indicator
-  name: Hard Working
-  percentage: 85
-  color: orange
+# - type: soft-skill-indicator
+#   name: Leadership
+#   percentage: 90
+#   color: blue
+
+# - type: soft-skill-indicator
+#   name: Team Work
+#   percentage: 90
+#   color: yellow
+
+# - type: soft-skill-indicator
+#   name: Hard Working
+#   percentage: 85
+#   color: orange
 
 # you can also provide color code instead of the color name
 # - type: soft-skill-indicator
