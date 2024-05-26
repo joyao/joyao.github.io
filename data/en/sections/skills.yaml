@@ -8,6 +8,21 @@ section:
   # Can optionally hide the title in sections
   # hideTitle: true
 
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Firmware
+  filter: "firmware"
+- name: Software
+  filter: "software"
+- name: CI/CD Automation
+  filter: "ci/cd"
+- name: Cloud and Security
+  filter: "cloud"
+- name: Soft Skills
+  filter: "softskills"
+
 # Your Skills.
 # Give a summary of you each skill in the summary section.
 
@@ -26,38 +41,104 @@ section:
 # GIS
 
 skills:
-- name: Kubernetes
+- name: BIOS/UEFI
   logo: /images/sections/skills/kubernetes.png
   # summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
-  url: "https://kubernetes.io/"
+  # url: "https://kubernetes.io/"
+  category: ["firmware"]
+  tags: ["C", "EDK2", "AMD", "Server", "Serial Save"]
 
 # - name: Go Development
 #   logo: /images/sections/skills/go.png
 #   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
 #   url: "https://golang.org/"
 
-- name: Cloud Computing
+- name: AWS
   logo: /images/sections/skills/cloud.png
-  # summary: "Got **AWS Certified Solutions Architect - Associate** certificate."
+  summary: "Got **AWS Certified Solutions Architect-Associate** certificate."
+  category: ["software", "ci/cd", "cloud"]
+  tags: ["Architect", "SAA-C03", "Developer"]
 
-- name: Docker
-  logo: /images/sections/skills/docker.svg
-  # summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
-  url: "https://www.docker.com/"
+- name: Frontend
+  logo: /images/sections/skills/cloud.png
+  summary: "test"
+  category: ["software"]
+  tags: ["HTML", "CSS", "JavaScript", "React", "Vue", "jQuery", "Sematic-UI", "Bootstrap"]
 
-- name: Prometheus
+- name: Backend
+  logo: /images/sections/skills/cloud.png
+  summary: "test"
+  category: ["software"]
+  tags: [".Net core", "NodeJS", "TypeScript", "C#", "MVC", "oData-API", "RESTful-API", "Swagger"]
+
+- name: Database
+  logo: /images/sections/skills/cloud.png
+  summary: "test"
+  category: ["software"]
+  tags: ["SQL", "SQL Server", "MongoDB", "PostgreSQL", "Oracle"]
+
+- name: CI/CD Automation
+  logo: /images/sections/skills/cloud.png
+  summary: "test"
+  category: ["ci/cd"]
+  tags: ["DevOps", "Jenkins", "Pipeline", "OpenLDAP", "SMTP Proxy", "Gitlab-CI", "GitHub Action", "Docker"]
+
+- name: Security
+  logo: /images/sections/skills/cloud.png
+  summary: "test"
+  category: ["ci/cd", "cloud"]
+  tags: ["Code Sign", "SBOM", "SonarQube", "ProxyServer"]
+
+- name: Python
   logo: /images/sections/skills/prometheus.png
   # summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
   url: "https://prometheus.io/"
+  category: ["software"]
+  tags: ["OOP", "Design Pattern", "Multi-process"]
 
 - name: Linux
   logo: /images/sections/skills/linux.png
-  # summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+  summary: "Using as the main operating system. Capable of writing bash/shell scripts and developing  auto-installation scripts."
+  category: ["software", "ci/cd"]
+  tags: ["Grub", "Shell Script", "Unattended Script", "firmware"]
 
 - name: Git
   logo: /images/sections/skills/git.png
   # summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
   url: "https://git-scm.com/"
+  category: ["firmware", "software"]
+  tags: ["Git Flow", "Git lfs", "Submodule", "GitHub Enterprise", "Git Message"]
+
+- name: Automated Testing
+  logo: /images/sections/skills/docker.svg
+  # summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
+  url: "https://www.docker.com/"
+  category: ["firmware", "software", "ci/cd"]
+  tags: ["Unit Test", "Integration Test", "Selenium"]
+
+- name: GIS
+  logo: /images/sections/skills/cloud.png
+  summary: "test"
+  category: ["software"]
+  tags: ["WebGIS", "ArcGIS Server", "QGIS Server", "OpenLayers"]
+
+- name: Leadership
+  logo: /images/sections/skills/cloud.png
+  summary: "test"
+  category: ["softskills"]
+  tags: ["Tech Lead", "Code Review"]
+
+- name: Teamwork
+  logo: /images/sections/skills/cloud.png
+  summary: "test"
+  category: ["softskills"]
+  tags: ["Tech Lead", "Code Review"]
+
+- name: Fast Learner
+  logo: /images/sections/skills/cloud.png
+  summary: "test"
+  category: ["softskills"]
+  tags: ["Tech Lead", "Code Review"]
 
 # - name: C++
 #   logo: /images/sections/skills/c++.png
