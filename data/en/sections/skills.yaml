@@ -42,7 +42,7 @@ buttons:
 
 skills:
 - name: BIOS/UEFI
-  logo: /images/sections/skills/kubernetes.png
+  logo: /images/sections/skills/uefi.png
   # summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
   # url: "https://kubernetes.io/"
   category: ["firmware"]
@@ -54,43 +54,43 @@ skills:
 #   url: "https://golang.org/"
 
 - name: AWS
-  logo: /images/sections/skills/cloud.png
+  logo: /images/sections/skills/aws.svg
   summary: "Got **AWS Certified Solutions Architect-Associate** certificate."
   category: ["software", "ci/cd", "cloud"]
   tags: ["Architect", "SAA-C03", "Developer"]
 
 - name: Frontend
-  logo: /images/sections/skills/cloud.png
+  logo: /images/sections/skills/frontend.png
   summary: "test"
   category: ["software"]
   tags: ["HTML", "CSS", "JavaScript", "React", "Vue", "jQuery", "Sematic-UI", "Bootstrap"]
 
 - name: Backend
-  logo: /images/sections/skills/cloud.png
+  logo: /images/sections/skills/backend.svg
   summary: "test"
   category: ["software"]
   tags: [".Net core", "NodeJS", "TypeScript", "C#", "MVC", "oData-API", "RESTful-API", "Swagger"]
 
 - name: Database
-  logo: /images/sections/skills/cloud.png
+  logo: /images/sections/skills/database.svg
   summary: "test"
   category: ["software"]
   tags: ["SQL", "SQL Server", "MongoDB", "PostgreSQL", "Oracle"]
 
 - name: CI/CD Automation
-  logo: /images/sections/skills/cloud.png
+  logo: /images/sections/skills/ci-cd.svg
   summary: "test"
   category: ["ci/cd"]
   tags: ["DevOps", "Jenkins", "Pipeline", "OpenLDAP", "SMTP Proxy", "Gitlab-CI", "GitHub Action", "Docker"]
 
 - name: Security
-  logo: /images/sections/skills/cloud.png
+  logo: /images/sections/skills/security.svg
   summary: "test"
   category: ["ci/cd", "cloud"]
   tags: ["Code Sign", "SBOM", "SonarQube", "ProxyServer"]
 
 - name: Python
-  logo: /images/sections/skills/prometheus.png
+  logo: /images/sections/skills/python.svg
   # summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
   url: "https://prometheus.io/"
   category: ["software"]
@@ -110,32 +110,32 @@ skills:
   tags: ["Git Flow", "Git lfs", "Submodule", "GitHub Enterprise", "Git Message"]
 
 - name: Automated Testing
-  logo: /images/sections/skills/docker.svg
+  logo: /images/sections/skills/testing.png
   # summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
   url: "https://www.docker.com/"
   category: ["firmware", "software", "ci/cd"]
   tags: ["Unit Test", "Integration Test", "Selenium"]
 
 - name: GIS
-  logo: /images/sections/skills/cloud.png
+  logo: /images/sections/skills/gis.svg
   summary: "test"
   category: ["software"]
   tags: ["WebGIS", "ArcGIS Server", "QGIS Server", "OpenLayers"]
 
 - name: Leadership
-  logo: /images/sections/skills/cloud.png
+  logo: /images/sections/skills/leadership.png
   summary: "test"
   category: ["softskills"]
   tags: ["Tech Lead", "Code Review"]
 
 - name: Teamwork
-  logo: /images/sections/skills/cloud.png
+  logo: /images/sections/skills/teamwork.svg
   summary: "test"
   category: ["softskills"]
   tags: ["Tech Lead", "Code Review"]
 
 - name: Fast Learner
-  logo: /images/sections/skills/cloud.png
+  logo: /images/sections/skills/learner.png
   summary: "test"
   category: ["softskills"]
   tags: ["Tech Lead", "Code Review"]
