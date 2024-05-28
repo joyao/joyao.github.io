@@ -4,4 +4,4 @@ go 1.19
 
 require github.com/hugo-toha/toha/v4 v4.5.0 // indirect
 
-replace github.com/hugo-toha/toha/v4 => github.com/joyao/toha/v4 v4.0.0-20240527161720-ea4fc76b254c
+replace github.com/hugo-toha/toha/v4 => github.com/joyao/toha/v4 develop
