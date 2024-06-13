@@ -16,7 +16,7 @@ experiences:
     location: Hybrid, Taiwan
     logo: /images/sections/experiences/Dell_logo.png
     # Can optionally show a different logo for dark theme
-    # darklogo: /images/sections/experiences/company1.jpg
+    # darkLogo: /images/sections/experiences/company1.jpg
     # company overview
     # overview: Dell Technologies is the leader in digital transformation, providing digital technology solutions, products, and services to drive business success.
   positions:
@@ -45,7 +45,7 @@ experiences:
     location: Taipei, Taiwan
     logo: /images/sections/experiences/CECI_logo.jpg
     # Can optionally show a different logo for dark theme
-    # darklogo: /images/sections/experiences/company2.jpg
+    # darkLogo: /images/sections/experiences/company2.jpg
     # overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
   positions:
   - designation: Technical Leader
