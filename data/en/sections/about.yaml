@@ -8,7 +8,7 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Senior Software Firmware Engineer
+designation: Sr. Software Firmware Engineer
 # your company information
 company:
   name: Dell Technologies.
@@ -46,30 +46,59 @@ resourceLinks:
 # You can show your verifiable certificates from https://www.credly.com.
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
+
+- type: soft-skill-indicator
+  name: 3 yrs+ Firmware BIOS Engineer
+  percentage: 30
+  color: orange
+
+- type: soft-skill-indicator
+  name: 5 yrs+ DevSecOps Engineer
+  percentage: 50
+  color: yellow
+
+- type: soft-skill-indicator
+  name: 6 yrs+ Software Engineer
+  percentage: 60
+  color: "#00adb5"
+
+
+
 - type: certification
   name: AWS Certified Solutions Architect - Associate
   url: "https://www.credly.com/badges/1cf6338d-b9ea-4fa0-a74b-ba2830eb30fb"
   badge: "https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
 
-- type: certification
+- type: hard-skill-indicator
+  name: IThome Keep Sharing Award
+  url: "https://ithelp.ithome.com.tw/users/20108631/ironman/3629"
+  badge: "/images/sections/about/ITHome.png"
+
+- type: hard-skill-indicator
   name: Dell Game Changer Award
-  url: "#"
-  badge: "https://projectvictor.com/pv/wp-content/uploads/2021/02/PMP-Logo-Project-Victor.png"
+  url: "https://www.linkedin.com/in/jy-hsu/overlay/1635508027638/single-media-viewer/?profileId=ACoAACZFksUBw59JxqxKQJvK7vNsJcO2d3X2JiA"
+  badge: "/images/sections/about/game_changer.jpg"
+
 
 - type: certification
+  name: PMP Certification Training
+  url: "#"
+  badge: "https://projectvictor.com/pv/wp-content/uploads/2021/02/PMP-Logo-Project-Victor.png"
+  percentage: 100
+  color: blue
+
+- type: soft-skill-indicator
   name: Professional Engineer (PE) - Survey
   url: "https://www.pcc.gov.tw/cp.aspx?n=CA5E4C285C0D7724"
   badge: "https://www.tpsea.org.tw/Uploads/Shop/65ddad3b-8275-46f9-a315-8503d3289986.png"
+  percentage: 100
+  color: blue
 
-- type: certification
-  name: Dell Game Changer Award
-  url: "https://www.linkedin.com/in/jy-hsu/overlay/1635508027638/single-media-viewer/?profileId=ACoAACZFksUBw59JxqxKQJvK7vNsJcO2d3X2JiA"
-  badge: "https://media.licdn.com/dms/image/C562DAQFGfR1cMWv7nw/profile-treasury-image-shrink_800_800/0/1668601978024?e=1716998400&v=beta&t=Tu69eO42-ATFHsYhmenW6FCBOX6L5_5tL0q9FmK0uk0"
+- type: soft-skill-indicator
+  name: 10 yrs+ Geomatics Engineer
+  percentage: 100
+  color: blue
 
-- type: certification
-  name: IThome Keep Sharing Award
-  url: "https://ithelp.ithome.com.tw/users/20108631/ironman/3629"
-  badge: "https://d1dwq032kyr03c.cloudfront.net/images/ironman_sticker/12/web.png?sticker"
 
 # - type: soft-skill-indicator
 #   name: Leadership

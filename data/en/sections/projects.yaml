@@ -12,65 +12,107 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: Tech Leader
-  filter: "lead"
+- name: Tech Lead
+  filter: "leader"
 - name: Software
   filter: "software"
+- name: Open Source
+  filter: "open source"
 - name: Side Projects
-  filter: "sideprj"
+  filter: "side project"
+- name: Hobby
+  filter: "hobby"
+
 
 # your projects
 projects:
+- name: Technical Consultant
+  image: /images/sections/projects/thumbnail/consultant.png
+  role: Owner
+  timeline: "August 2021 - Present"
+  # url: "https://www.example.com"
+  summary: An unpaid consultant job providing geospatial data analysis, GIS, SAR, LiDAR, drone(UAV), surveying, CI/CD, web development and basic infrastructure consulting.
+  tags: ["side project","hobby"]
+
+- name: Hugo Toha
+  image: /images/sections/projects/thumbnail/hugo-toha.png
+  logo: /images/sections/projects/toha.png
+  role: Contributor
+  timeline: "May 2024 - Present"
+  repo: https://github.com/hossainemruz/toha
+  summary: A Hugo theme for personal portfolio.
+  tags: ["side project","software","open source"]
+
+
+
 - name: Geographic Information Integrated Application Platform
+  image: /images/sections/projects/thumbnail/hlgis.png
   logo: /images/sections/skills/gis.svg
   role: Team Lead
   timeline: "October 2020 - August 2021"
-  repo: https://map.hl.gov.tw/HLGIS # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  url: https://map.hl.gov.tw/HLGIS # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Production-Grade Container Scheduling and Management.
-  tags: ["lead", "software"]
-  image: /images/sections/projects/thumbnail/hlgis.png
+  tags: ["leader", "software"]
+
+
+- name: "[Technical Articles] Getting Started with WebGIS - Implementing with Openlayers"
+  image: /images/sections/projects/thumbnail/ithelp.jpg
+  logo: /images/sections/projects/ithelp.png
+  role: Owner
+  timeline: "May 2024 - Present"
+  url: https://github.com/joyao/OLMap
+  # url: https://ithelp.ithome.com.tw/users/20108631/ironman/3629
+  summary: A Hugo theme for personal portfolio.
+  tags: ["side project","software","open source"]
+
+- name: Flow to Paddies
+  image: /images/sections/projects/thumbnail/flow_to_paddies.png
+  logo: /images/sections/projects/ithelp.png
+  role: Developer
+  timeline: "May 2024 - Present"
+  repo: https://github.com/joyao/water_irrigation
+  url: https://mengchin.github.io/water_irrigation/
+  summary: A Hugo theme for personal portfolio.
+  tags: ["side project","software","hobby"]
+
+- name: Cadastral Map Production Program
+  image:
+  logo: /images/sections/projects/tensorflow.png
+  role: Owner
+  timeline: "January 2021 - May 2021"
+  repo: https://github.com/joyao/APITestingFromDB
+  #url: ""
+  summary: An Open Source Machine Learning Framework for Everyone.
+  tags: ["leader", "side project"]
+
 
 - name: Urban Planning Application Management System
+  image: /images/sections/projects/thumbnail/hlup.png
   logo: /images/sections/skills/gis.svg
   role: Team Lead
   timeline: "October 2020 - August 2021"
   repo: https://map.hl.gov.tw/HLUPWeb # If your project is a public repo on GitHub, then provide this link. it will show star count.
   #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
   summary: Production-Grade Container Scheduling and Management.
-  tags: ["lead", "software"]
-  image: /images/sections/projects/thumbnail/hlup.png
+  tags: ["leader", "software"]
 
-
-- name: Tensorflow
+- name: 3rd Party API Auto-Test Program
   logo: /images/sections/projects/tensorflow.png
-  role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
+  role: Owner
+  timeline: "January 2021 - May 2021"
+  repo: https://github.com/joyao/APITestingFromDB
   #url: ""
   summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning"]
+  tags: ["leader", "side project"]
 
-- name: A sample academic paper
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
-
-- name: Nocode
+- name: CECI Homeland Security Monitoring Platform
+  image: /images/sections/projects/thumbnail/ceci-sarweb.png
   logo: /images/sections/projects/no-code.png
-  role: Nothing
+  role: Owner
   timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
+  url: https://gisportal.ceci.com.tw/SARWeb/
   #url: ""
   summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
+  tags: ["hobby", "software"]
 
-- name: Toha
-  logo: /images/sections/projects/toha.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
