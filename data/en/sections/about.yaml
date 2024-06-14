@@ -19,7 +19,22 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: "Having 2 years of sever BIOS, 10 years of python programming and 3 years of Web full-stack development experience, I'm responsible for various types of large-scale web systems, such as spatial data storage systems, urban planning, real estate, remote sensing, etc. With the passion on new techniques, I also enhanced my team's technical capabilities by introducing optimized development process and tools."
+summary: "Hi !👋
+<br>
+I am a **Firmware** / **Software** / **DevSecOps** Engineer, and even an **Open-Source Contributor**, who love learning new things, solving problems, sharing technical skills and constantly improving myself.\n
+
+
+
+At my current role, I've developed a systematic BIOS serial save feature (D4D), which saved engineers 20% of debugging time, enhancing customer satisfaction and retention. I am a firm believer in CI/CD automated BIOS code signing and auto-testing system to minimize bugs and speed up the release cycle.
+
+
+As a **Technical Leader**, I led the team to successfully complete large-scale webGIS and software systems such as smart home land systems, satellite data storage systems and urban planning systems.
+
+
+Outside of my day-to-day work, I contribute to open-source projects and stay engaged with the developer community through tech meetups and conferences. I am always seeking to learn new technologies and methodologies to stay at the forefront of software firmware engineering trends.
+Moreover, I am very familiar with the field of **Geomatics** which I provide free consulting services and welcome anyone interested in spatial data to discuss together.\n
+
+"
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -39,8 +54,14 @@ socialLinks:
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
-- title: "My Resume"
-  url: "files/resume.pdf"
+- title: "My Resume - English"
+  url: "https://drive.google.com/file/d/1W43qRjqZCxrUeqTmGxM4pH3vCvLc_2WC/view?usp=sharing"
+
+- title: "My Resume - Chinese"
+  url: "https://drive.google.com/file/d/14fkzUQfN3ig6wVj82avfAvq1Ynxn_941/view?usp=sharing"
+
+- title: "My Portfolio"
+  url: "https://drive.google.com/file/d/1oyhzk6fjQgVEOwtv9K000E7fD5ddJFPa/view?usp=sharing"
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.
@@ -48,17 +69,17 @@ resourceLinks:
 badges:
 
 - type: soft-skill-indicator
-  name: 3 yrs+ Firmware BIOS Engineer
+  name: 3+ yrs Firmware BIOS Engineer
   percentage: 30
   color: orange
 
 - type: soft-skill-indicator
-  name: 5 yrs+ DevSecOps Engineer
+  name: 5+ yrs DevSecOps Engineer
   percentage: 50
   color: yellow
 
 - type: soft-skill-indicator
-  name: 6 yrs+ Software Engineer
+  name: 6+ yrs Software Engineer
   percentage: 60
   color: "#00adb5"
 
