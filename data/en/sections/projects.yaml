@@ -14,6 +14,8 @@ buttons:
   filter: "all"
 - name: Tech Lead
   filter: "leader"
+- name: Firmware
+  filter: "firmware"
 - name: Software
   filter: "software"
 - name: Open Source
@@ -26,24 +28,42 @@ buttons:
 
 # your projects
 projects:
-- name: Technical Consultant
-  image: /images/sections/projects/thumbnail/consultant.png
+
+- name: BIOS Features and Firmware Automation Development
+  image:
+  role: Developer
+  timeline: "January 2024 - Present"
+  summary: Designed and implemented advanced BIOS features, while spearheading the adoption of CI/CD firmware automation workflows, effectively reducing debugging time and optimizing resource allocation.
+  tags: ["firmware"]
+
+- name: Daily Cadastral Mapping Program
+  image:
+  logo: /images/sections/skills/gis.svg
   role: Owner
-  timeline: "August 2021 - Present"
-  # url: "https://www.example.com"
-  summary: An unpaid consultant job providing geospatial data analysis, GIS, SAR, LiDAR, drone(UAV), surveying, CI/CD, web development and basic infrastructure consulting.
-  tags: ["side project","hobby"]
+  timeline: "December 2022 - June 2023"
+  repo: https://github.com/joyao/APITestingFromDB
+  #url: ""
+  summary: Designed and developed a stable, modular program for daily operations, facilitating the construction of cadastral maps and management of various land situations to ensure consistent operational efficiency and regulatory compliance.
+  tags: ["leader", "software"]
 
-- name: Hugo Toha
-  image: /images/sections/projects/thumbnail/hugo-toha.png
-  logo: /images/sections/projects/toha.png
-  role: Contributor
-  timeline: "May 2024 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["side project","software","open source"]
+- name: 3rd-Party API Automated Testing
+  logo: /images/sections/projects/test.png
+  role: Owner
+  timeline: "January 2021 - May 2021"
+  repo: https://github.com/joyao/APITestingFromDB
+  #url: ""
+  summary: Implemented an **asynchronous** testing program for third-party APIs, ensuring rapid validation of multiple APIs. Utilized async methods for efficiency and automated email notifications for prompt issue resolution.
+  tags: ["leader", "side project", "software"]
 
 
+
+- name: Dell PowerEdge C Series Modular Server
+  image: /images/sections/projects/thumbnail/poweredge_c6615.png
+  role: Developer
+  timeline: "May 2023 - December 2023"
+  url: "https://www.dell.com/en-us/shop/ipovw/poweredge-c6615?search_redirect=c6615"
+  summary: Developed and performed source code level debugging for **Modular Infrastructure** and **Rack** products. Including R6615, C6615 and next generation products.
+  tags: ["firmware"]
 
 - name: Geographic Information Integrated Application Platform
   image: /images/sections/projects/thumbnail/hlgis.png
@@ -61,7 +81,7 @@ projects:
   logo: /images/sections/projects/ithelp.png
   role: Owner
   timeline: "May 2024 - Present"
-  url: https://github.com/joyao/OLMap
+  url: https://ithelp.ithome.com.tw/users/20108631/ironman/3629
   # url: https://ithelp.ithome.com.tw/users/20108631/ironman/3629
   summary: A Hugo theme for personal portfolio.
   tags: ["side project","software","open source"]
@@ -76,15 +96,7 @@ projects:
   summary: A Hugo theme for personal portfolio.
   tags: ["side project","software","hobby"]
 
-- name: Cadastral Map Production Program
-  image:
-  logo: /images/sections/projects/tensorflow.png
-  role: Owner
-  timeline: "January 2021 - May 2021"
-  repo: https://github.com/joyao/APITestingFromDB
-  #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["leader", "side project"]
+
 
 
 - name: Urban Planning Application Management System
@@ -97,22 +109,41 @@ projects:
   summary: Production-Grade Container Scheduling and Management.
   tags: ["leader", "software"]
 
-- name: 3rd Party API Auto-Test Program
-  logo: /images/sections/projects/tensorflow.png
-  role: Owner
-  timeline: "January 2021 - May 2021"
-  repo: https://github.com/joyao/APITestingFromDB
-  #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["leader", "side project"]
 
 - name: CECI Homeland Security Monitoring Platform
   image: /images/sections/projects/thumbnail/ceci-sarweb.png
-  logo: /images/sections/projects/no-code.png
+  logo: /images/sections/skills/gis.svg
   role: Owner
   timeline: "Oct 2019 - Dec 2019"
   url: https://gisportal.ceci.com.tw/SARWeb/
   #url: ""
   summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "software"]
+  tags: ["software"]
 
+
+- name: Hugo Toha - OSS Contributor
+  image: /images/sections/projects/thumbnail/hugo-toha.png
+  logo: /images/sections/projects/toha.png
+  role: Contributor
+  timeline: "May 2024 - Present"
+  repo: https://github.com/hossainemruz/toha
+  summary: A Hugo theme for personal portfolio.
+  tags: ["side project","software","open source"]
+
+
+- name: CI/CD and Geomatics Technical Consultant
+  image: /images/sections/projects/thumbnail/DevSecOps.jpg
+  role: Owner
+  timeline: "August 2021 - Present"
+  # url: "https://www.example.com"
+  summary: An unpaid consultant job providing geospatial data analysis, GIS, SAR, LiDAR, drone(UAV), surveying, CI/CD, web development and basic infrastructure consulting.
+  tags: ["side project","hobby"]
+
+- name: Nocode
+  logo: /images/sections/projects/no-code.png
+  role: Nothing
+  timeline: "Oct 2019 - Dec 2019"
+  repo: https://github.com/kelseyhightower/nocode
+  #url: ""
+  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
+  tags: ["hobby"]

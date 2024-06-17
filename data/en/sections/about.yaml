@@ -19,20 +19,19 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: "Hi !👋
+summary: "Hi there! 👋
 <br>
-I am a **Firmware** / **Software** / **DevSecOps** Engineer, and even an **Open-Source Contributor**, who love learning new things, solving problems, sharing technical skills and constantly improving myself.\n
+I am a versatile **Firmware** / **Software** / **DevSecOps** Engineer and **Open-Source Contributor**, who love learning new things, solving problems, sharing technical skills and constantly improving myself.\n
 
 
 
-At my current role, I've developed a systematic BIOS serial save feature (D4D), which saved engineers 20% of debugging time, enhancing customer satisfaction and retention. I am a firm believer in CI/CD automated BIOS code signing and auto-testing system to minimize bugs and speed up the release cycle.
+At my current role, I've developed a systematic BIOS serial save feature (D4D), reducing engineers' debugging time by 20% and enhancing customer satisfaction and retention. I'm a staunch advocate for CI/CD automated BIOS code signing and cutting-edge auto-testing systems, ensuring our releases are bug-free and lightning-fast.
 
 
-As a **Technical Leader**, I led the team to successfully complete large-scale webGIS and software systems such as smart home land systems, satellite data storage systems and urban planning systems.
+As a **Technical Leader**, I've led diverse teams in delivering major webGIS and software projects such as intelligent HomeLand systems, satellite Radar data analysis, and urban planning systems.
 
 
-Outside of my day-to-day work, I contribute to open-source projects and stay engaged with the developer community through tech meetups and conferences. I am always seeking to learn new technologies and methodologies to stay at the forefront of software firmware engineering trends.
-Moreover, I am very familiar with the field of **Geomatics** which I provide free consulting services and welcome anyone interested in spatial data to discuss together.\n
+Outside of my day-to-day work, I contribute to **open-source projects** and stay engaged with the developer community through tech meetups and conferences. I am always seeking to learn new technologies and methodologies to stay at the forefront of software firmware engineering trends. I also offer expertise in **Geomatics**, providing free consulting services and fostering discussions on spatial data.
 
 "
 
@@ -54,10 +53,10 @@ socialLinks:
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
-- title: "My Resume - English"
+- title: "My Resume - en"
   url: "https://drive.google.com/file/d/1W43qRjqZCxrUeqTmGxM4pH3vCvLc_2WC/view?usp=sharing"
 
-- title: "My Resume - Chinese"
+- title: "My Resume - zh"
   url: "https://drive.google.com/file/d/14fkzUQfN3ig6wVj82avfAvq1Ynxn_941/view?usp=sharing"
 
 - title: "My Portfolio"
@@ -116,7 +115,7 @@ badges:
   color: blue
 
 - type: soft-skill-indicator
-  name: 10 yrs+ Geomatics Engineer
+  name: 10+ yrs Geomatics Engineer
   percentage: 100
   color: blue
 
