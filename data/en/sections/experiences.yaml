@@ -21,23 +21,26 @@ experiences:
     # overview: Dell Technologies is the leader in digital transformation, providing digital technology solutions, products, and services to drive business success.
   positions:
   - designation: Senior Firmware Software Engineer
-    start: Apr 2023
+    start: April 2023
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Developed and source level debugged UEFI/BIOS firmware for Dell PowerEdge platform hyperscale C series server products.
-    - Led teams of 20 people (across 8 teams, 4 companies and 3 countries) in collaborative development of automation libraries. This project is Dell’s key implementation project in recent years.
+    - Developed UEFI/BIOS firmware for Dell PowerEdge 16G platform hyperscale C-Series server products, performing source code-level debugging for both AMD and Intel systems.
+    - Designed and developed the D4D (Develop for Diagnosis) feature, significantly increasing BIOS debugging log capacity by 25 times the original, and implementing standardized logging and critical debugging table storage.
+    - Mentored interns in utilizing BIOS debug logs for organization and analysis, and spearheaded the establishment of an AI model for preliminary detection of BIOS issues.
+    - Led cross-functional teams of 20 members spanning 8 teams, 4 companies, and 3 countries in collaborative development of automation libraries, a key implementation project at Dell in recent years.
+    - "Awarded <u>DELL FY25 Game Changer Award</u> for outstanding innovation on D4D feature which fully instrumented boot log captured on every boot and with almost no impact to POST time."
 
   - designation: Firmware Software Engineer
-    start: Nov 2021
-    end: Mar 2023
+    start: November 2021
+    end: March 2023
     responsibilities:
-    - Server UEFI/BIOS firmware development 
-    - Implemented automated daily BIOS build and testing for each platform, achieving "Shift-Left Testing" and improving program stability. Reduced pre-release testing labor costs and post-release BIOS error rates.
-    - Awarded DELL FY24 Game Changer Award for pioneering a new BIOS CI/CD workflow, fostering team and ODM ownership, and driving ongoing test case integration.
-    - Feature and integration automated testing CI/CD system architect.
-    - User friendly interface developer for automation system.
+    - Specialized in server UEFI/BIOS firmware development.
+    - Implemented automated daily BIOS build and testing across each platform, achieving "Shift-Left Testing" and enhancing program stability. Significantly reduced pre-release testing labor costs and post-release BIOS error rates.
+    - Designed and developed the architecture for feature and integration automated testing CI/CD systems.
+    - Developed user-friendly interfaces for automation systems, enhancing accessibility and usability for diverse teams and stakeholders.
+    - "Awarded <u>DELL FY24 Game Changer Award</u> for pioneering a new BIOS CI/CD workflow, fostering team and ODM ownership, and driving ongoing test case integration."
 
 - company:
     name: CECI Engineering Consultants, Inc. Taiwan
@@ -51,19 +54,20 @@ experiences:
   - designation: Technical Leader
     start: September 2020
     end: August 2021
+    subtitle: Team Capability Optimization and Innovation Initiatives
     responsibilities:
 
-    - __Team Capability Optimization and Innovation Initiatives__
     - Implemented automated third-party API testing, prioritizing integration with project CI/CD workflows to ensure efficient system stability monitoring for developers and maintain high product release quality.
     - Directed a five-person development team, showcasing strong communication, coordination, and teamwork skills, overseeing code reviews and providing technical guidance.
     - Spearheaded the adoption of Git flow and Agile-based SDLC for the software development team, potentially enhancing development efficiency by 65%.
+    - Invented and [patented (M597309)](https://www.ceci.com.tw/page/aboutUs/Patents.aspx?patent=1#:~:text=%E7%9A%84%E9%9B%BB%E8%85%A6%E7%B3%BB%E7%B5%B1-,%E5%B9%B2%E6%B6%89%E5%90%88%E6%88%90%E5%AD%94%E5%BE%91%E9%9B%B7%E9%81%94%E5%9C%B0%E8%A1%A8%E5%BD%A2%E8%AE%8A%E8%B3%87%E8%A8%8A%E6%95%B4%E5%90%88%E7%B3%BB%E7%B5%B1,-%E5%90%B8%E9%9F%B3%E8%A3%9D%E7%BD%AE) a 3-tier search architecture for monitoring long-term land surface displacement, successfully applied in bridge monitoring, leading to Taipei government reconstruction to avoid future disasters.
 
   - designation: Software Engineer
     start: August 2018
     end: September 2020
+    subtitle: Web-based Services Full-stack solution planning, development and maintenance
     responsibilities:
 
-    - __Web-based Services Full-stack solution planning, development and maintenance__
     - Headed custom web development projects as the tech lead for the department's largest project, contributing expertise as a full-stack engineer across 15 large-scale projects.
     - Devised a solution to refine address fuzzy matching, resulting in a notable 7% improvement in spatial data positioning precision.
     - Overhauled the daily synchronization of cadastral databases between backend systems and external Oracle databases, resulting in a substantial 50% enhancement in fetching new spatial data.

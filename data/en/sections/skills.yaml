@@ -85,7 +85,7 @@ skills:
 
 - name: Security
   logo: /images/sections/skills/security.svg
-  summary: "Conducted threat modeling, implemented disaster recovery plans, created Software Bill of Materials (SBOM) manifests, and performed source code inspections."
+  summary: "Conducted threat modeling, implemented disaster recovery plans, created Software Bill of Materials (SBOM) manifests, and set up and performed source code inspections with SonarQube."
   category: ["ci/cd", "cloud"]
   tags: ["Code Sign", "SBOM", "SonarQube", "ProxyServer"]
 
