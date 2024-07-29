@@ -57,10 +57,10 @@ socialLinks:
 # For example, you can put link for your resume.
 resourceLinks:
 - title: "My Resume - en"
-  url: "https://drive.google.com/file/d/1W43qRjqZCxrUeqTmGxM4pH3vCvLc_2WC/view?usp=sharing"
+  url: "files/Resume_en.pdf"
 
 - title: "My Resume - zh"
-  url: "https://drive.google.com/file/d/14fkzUQfN3ig6wVj82avfAvq1Ynxn_941/view?usp=sharing"
+  url: "files/Resume_zh.pdf"
 
 # - title: "My Portfolio"
 #   url: "https://drive.google.com/file/d/1oyhzk6fjQgVEOwtv9K000E7fD5ddJFPa/view?usp=sharing"
