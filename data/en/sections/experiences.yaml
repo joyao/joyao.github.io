@@ -40,7 +40,7 @@ experiences:
     - Implemented automated daily BIOS build and testing across each platform, achieving "Shift-Left Testing" and enhancing program stability. Significantly reduced pre-release testing labor costs and post-release BIOS error rates.
     - Designed and developed the architecture for feature and integration automated testing CI/CD systems.
     - Developed user-friendly interfaces for automation systems, enhancing accessibility and usability for diverse teams and stakeholders.
-    - "Awarded <u>DELL FY24 Game Changer Award</u> for pioneering a new BIOS CI/CD workflow, fostering team and ODM ownership, and driving ongoing test case integration."
+    - "Awarded <u>DELL FY23 Game Changer Award</u> for pioneering a new BIOS CI/CD workflow, fostering team and ODM ownership, and driving ongoing test case integration."
 
 - company:
     name: CECI Engineering Consultants, Inc. Taiwan
