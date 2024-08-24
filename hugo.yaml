@@ -95,10 +95,10 @@ params:
       shareButtons:
         facebook: false
         twitter: false
-        linkedin: true
+        linkedin: false
         reddit: false
         whatsapp: false
-        email: true
+        email: false
         # tumblr: true
         # pocket: true
         # diaspora: true
@@ -106,7 +106,7 @@ params:
 
     # Enable & configure "Notes" features
     notes:
-      enable: true
+      enable: false
 
     # Enable comment feature. There, should be only one of them.
     comment:
