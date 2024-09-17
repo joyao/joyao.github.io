@@ -8,7 +8,9 @@ menu:
     identifier: 2024iThome
     weight: 60
 hero: hero.png
-math: true
+tags: ["Automation", "Test"]
+categories: ["Basic"]
+summary:  主題：開發都來不及了還做什麼測試
 ---
 
 This is a sample post intended to test the followings:
