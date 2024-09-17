@@ -2,4 +2,4 @@ module github.com/joyao/joyao.github.io
 
 go 1.21
 
-replace github.com/hugo-toha/toha/v4 => github.com/joyao/toha/v4 v4.0.0-20240824031952-8ed23654ae1d
+replace github.com/hugo-toha/toha/v4 => github.com/joyao/toha/v4 v4.0.0-20240917094058-500cef987b74
