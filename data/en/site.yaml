@@ -27,5 +27,3 @@ openGraph:
   description: Portfolio and personal blog of JY Hsu.
   image: images/author/jy_hsu.png
   url: https://hugo-toha.github.io
-
-defaultTheme: light
