@@ -46,7 +46,7 @@ skills:
   logo: /images/sections/skills/uefi.png
   summary: "Designed and developed D4D (Develop for Diagnosis) features, and conducted source-level debugging for Dell PowerEdge BIOS (x86)."
   # url: "https://kubernetes.io/"
-  category: ["firmware"]
+  categories: ["firmware"]
   tags: ["C", "EDK2", "AMD", "Server", "Serial Save"]
 
 # - name: Go Development
@@ -57,88 +57,88 @@ skills:
 - name: AWS
   logo: /images/sections/skills/aws.svg
   summary: "Achieved AWS Certified Solutions Architect - Associate certification."
-  category: ["software", "ci/cd", "cloud"]
+  categories: ["software", "ci/cd", "cloud"]
   tags: ["Architect", "SAA-C03", "Developer"]
 
 - name: Frontend
   logo: /images/sections/skills/frontend.png
   summary: "Specialized in developing WebGIS systems using frontend frameworks and integrating UI/UX design kits for enhanced user experience."
-  category: ["software"]
+  categories: ["software"]
   tags: ["HTML/CSS", "JavaScript", "React", "Vue", "Bootstrap", "Sematic-UI"]
 
 - name: Backend
   logo: /images/sections/skills/backend.svg
   summary: "Primarily involved in database and API design, along with authentication and proxy implementation."
-  category: ["software"]
+  categories: ["software"]
   tags: [".Net core", "NodeJS", "TypeScript", "C#", "MVC", "oData-API", "RESTful-API", "Swagger"]
 
 - name: Database
   logo: /images/sections/skills/database.svg
   summary: "Strengthened security configurations, automated daily data dumps, and architected database table metadata for optimized performance."
-  category: ["software"]
+  categories: ["software"]
   tags: ["SQL", "SQL Server", "MongoDB", "PostgreSQL", "Oracle"]
 
 - name: CI/CD Automation
   logo: /images/sections/skills/ci-cd.svg
   summary: "Skilled in designing customized CI/CD pipelines and automating integration of third-party packages."
-  category: ["ci/cd"]
+  categories: ["ci/cd"]
   tags: ["DevOps", "Jenkins", "OpenLDAP", "SMTP Proxy", "Gitlab-CI", "GitHub Action", "Docker"]
 
 - name: Security
   logo: /images/sections/skills/security.svg
   summary: "Conducted threat modeling, implemented disaster recovery plans, created Software Bill of Materials (SBOM) manifests, and set up and performed source code inspections with SonarQube."
-  category: ["ci/cd", "cloud"]
+  categories: ["ci/cd", "cloud"]
   tags: ["Code Sign", "SBOM", "SonarQube", "ProxyServer"]
 
 - name: Python
   logo: /images/sections/skills/python.svg
   summary: "Proficient in object-oriented development, with a strong understanding of design patterns and system architecture."
   # url: "https://prometheus.io/"
-  category: ["software"]
+  categories: ["software"]
   tags: ["OOP", "Design Pattern", "Multi-process"]
 
 - name: Linux
   logo: /images/sections/skills/linux.png
   summary: "Proficient in using Linux as the main operating system, with expertise in writing bash/shell scripts and developing auto-installation scripts."
-  category: ["software", "ci/cd"]
+  categories: ["software", "ci/cd"]
   tags: ["Grub", "Shell Script", "Unattended Script", "firmware"]
 
 - name: Git
   logo: /images/sections/skills/git.png
   summary: "Skilled in designing Git workflows tailored to project needs, and establishing branch policies and code review rules for GitHub and GitLab."
   url: "https://git-scm.com/"
-  category: ["firmware", "software"]
+  categories: ["firmware", "software"]
   tags: ["Git Flow", "Git lfs", "Submodule", "GitHub Enterprise", "Git Message"]
 
 - name: Automated Testing
   logo: /images/sections/skills/testing.png
   summary: "Designed and implemented a firmware test system architecture, and led the team in developing Power-On Tests (POT), Component Tests (CT), and unit test scripts."
   # url: "https://www.docker.com/"
-  category: ["firmware", "software", "ci/cd"]
+  categories: ["firmware", "software", "ci/cd"]
   tags: ["Unit Test", "Integration Test", "Selenium"]
 
 - name: GIS
   logo: /images/sections/skills/gis.svg
   summary: "Developed and led a team to successfully complete 10 large-scale WebGIS projects, overseeing the planning and execution of GIS data analysis."
-  category: ["software"]
+  categories: ["software"]
   tags: ["WebGIS", "ArcGIS Server", "QGIS Server", "OpenLayers"]
 
 - name: Fast Learner
   logo: /images/sections/skills/learner.png
   summary: "Graduated from a non-CS major, yet possess deep software development skills and concepts. Continuously keep up with the latest technology, demonstrating a passion for learning new technologies and introducing them to the team."
-  category: ["softskills"]
+  categories: ["softskills"]
   tags: ["Tech Lead", "Code Review"]
 
 - name: Teamwork
   logo: /images/sections/skills/teamwork.svg
   summary: "Collaborated with 20 teams in academic and professional settings, emphasizing the importance of technical development and mutual cooperation within the team."
-  category: ["softskills"]
+  categories: ["softskills"]
   tags: ["Tech Lead", "Code Review"]
 
 - name: Leadership
   logo: /images/sections/skills/leadership.png
   summary: "Served as the software technical leader of a multicultural team of approximately 20 individuals, successfully guiding them to complete significant projects."
-  category: ["softskills"]
+  categories: ["softskills"]
   tags: ["Tech Lead", "Code Review"]
 
 # - name: C++
