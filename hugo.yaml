@@ -307,7 +307,3 @@ params:
     # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:
       enable: false
-
-services:
-  googleAnalytics:
-    id: "G-7RN1HBXENM"
