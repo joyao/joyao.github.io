@@ -21,7 +21,7 @@ company:
 # a summary about you
 summary: "Hi there! 👋
 <br>
-I am a active **Firmware** / **Software** / **DevSecOps** / **Test** Engineer and **Open-Source Contributor**, who love learning new things, solving problems, sharing technical skills and constantly improving myself.\n
+I am a active **Software** / **Firmware** / **Full-Stack** / **DevSecOps** / **SDET** Engineer and **Open-Source Maintainer / Contributor**, who love learning new things, solving problems, sharing technical skills and constantly improving myself.\n
 
 
 
@@ -90,9 +90,8 @@ badges:
   color: "#00adb5"
 
 
-
 - type: certification
-  name: AWS Certified Solutions Architect - Associate
+  name: AWS Certified Solutions Architect
   url: "https://www.credly.com/badges/1cf6338d-b9ea-4fa0-a74b-ba2830eb30fb"
   badge: "https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
 
@@ -111,6 +110,16 @@ badges:
   url: "https://ithelp.ithome.com.tw/users/20108631/ironman/3629"
   badge: "/images/sections/about/ITHome.png"
 
+- type: hard-skill-indicator
+  name: 2024 IThome Keep Sharing Award - Software Dev
+  url: "https://ithelp.ithome.com.tw/users/20108631/ironman/7702"
+  badge: "/images/sections/about/ITHome2024.png"
+
+- type: hard-skill-indicator
+  name: Hacktoberfest 2024 - Level 2 Certification
+  url: "https://www.holopin.io/hacktoberfest2024/userbadge/cm2hkc5f528760cjsqneet97t"
+  badge: "/images/sections/about/Hacktoberfest2024.png"
+
 # - type: hard-skill-indicator
 #   name: 2024 IThome Keep Sharing Award - Firmware BIOS
 #   url: "https://ithelp.ithome.com.tw/users/20108631/ironman/3629"
@@ -123,17 +132,10 @@ badges:
   percentage: 100
   color: blue
 
-- type: soft-skill-indicator
-  name: Professional Engineer (PE) - Survey
-  url: "https://www.pcc.gov.tw/cp.aspx?n=CA5E4C285C0D7724"
-  badge: "https://www.tpsea.org.tw/Uploads/Shop/65ddad3b-8275-46f9-a315-8503d3289986.png"
-  percentage: 100
-  color: blue
-
-- type: soft-skill-indicator
-  name: 10+ yrs Geomatics Engineer
-  percentage: 100
-  color: blue
+# - type: soft-skill-indicator
+#   name: 10+ yrs Geomatics Engineer
+#   percentage: 100
+#   color: blue
 
 
 # - type: soft-skill-indicator

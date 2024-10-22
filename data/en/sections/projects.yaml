@@ -73,25 +73,32 @@ projects:
   summary: Served as the Technical Leader for the department's largest project, leading a team in collecting and analyzing diverse map data and establishing spatial information integration application features.
   tags: ["leader", "software"]
 
-- name: "[Technical Articles] Getting Started with WebGIS - Implementing with Openlayers"
-  image: /images/sections/projects/thumbnail/ithelp.jpg
-  logo: /images/sections/projects/ithelp.png
-  role: Owner
-  timeline: "May 2024 - Present"
-  url: https://ithelp.ithome.com.tw/users/20108631/ironman/3629
-  # url: https://ithelp.ithome.com.tw/users/20108631/ironman/3629
-  summary: Participated in a self-improvement competition by sharing technical articles for 30 consecutive days, guiding novices on how to write a WebGIS.
-  tags: ["side project","software","open source"]
-
 - name: Flow to Paddies
   image: /images/sections/projects/thumbnail/flow_to_paddies.png
   logo: /images/sections/projects/ithelp.png
   role: Developer
-  timeline: "May 2024 - Present"
+  timeline: "January 2022 - May 2022"
   repo: https://github.com/joyao/water_irrigation
   url: https://joyao.github.io/water_irrigation/
   summary: Won first place in the WRA 2022 Water Resource IoT Competition with a project that utilized open-source water-related data to analyze and predict water requirements for each paddy season.
   tags: ["side project","software","hobbies"]
+
+- name: "[Tech Posts] Getting Started with WebGIS - Implementing with Openlayers"
+  image: /images/sections/projects/thumbnail/ithelp.jpg
+  role: Owner
+  timeline: "May 2020 - October 2020"
+  url: https://ithelp.ithome.com.tw/users/20108631/ironman/3629
+  summary: Participated in a self-improvement competition by sharing technical articles for 30 consecutive days, guiding novices on how to write a WebGIS.
+  tags: ["side project","software","open source"]
+
+- name: "[Tech Posts] Why Do We Need Software Testing?"
+  image: /images/sections/projects/thumbnail/hero.png
+  role: Owner
+  timeline: "May 2024 - October 2024"
+  url: https://ithelp.ithome.com.tw/users/20108631/ironman/7702
+  summary: Participated in a self-improvement competition by sharing technical articles for 30 consecutive days, guiding novices on what is software testing.
+  tags: ["side project","software","open source"]
+
 
 - name: Urban Planning Application Management System
   image: /images/sections/projects/thumbnail/hlup.png
@@ -113,10 +120,10 @@ projects:
   summary: Invented and patented (M597309) a groundbreaking 3-tier search architecture for monitoring long-term land surface displacement. This innovation was successfully applied in bridge monitoring, prompting Taipei government reconstruction efforts to prevent future disasters.
   tags: ["leader","software"]
 
-- name: Hugo Toha - OSS Contributor
+- name: Hugo Toha - OSS Maintainer / Contributor
   image: /images/sections/projects/thumbnail/hugo-toha.png
   logo: /images/sections/projects/toha.png
-  role: Contributor
+  role: Maintainer
   timeline: "May 2024 - Present"
   repo: https://github.com/hossainemruz/toha
   summary: Enhanced and debugged the frontend and backend of 'Toha', a Hugo theme for personal portfolios, improving overall functionality and user experience.
