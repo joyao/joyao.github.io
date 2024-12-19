@@ -125,12 +125,9 @@ badges:
 #   url: "https://ithelp.ithome.com.tw/users/20108631/ironman/3629"
 #   badge: "/images/sections/about/ITHome.png"
 
-- type: certification
+- type: hard-skill-indicator
   name: PMP Certification Training
-  url: "#"
-  badge: "https://projectvictor.com/pv/wp-content/uploads/2021/02/PMP-Logo-Project-Victor.png"
-  percentage: 100
-  color: blue
+  badge: "/images/sections/about/PMP.png"
 
 # - type: soft-skill-indicator
 #   name: 10+ yrs Geomatics Engineer

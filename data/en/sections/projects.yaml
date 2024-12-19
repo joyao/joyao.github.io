@@ -135,7 +135,7 @@ projects:
   timeline: "August 2021 - Present"
   # url: "https://www.example.com"
   summary: An unpaid consultant job providing geospatial data analysis, GIS, SAR, LiDAR, drone(UAV), surveying, CI/CD, web development and basic infrastructure consulting.
-  tags: ["side project","hobbies"]
+  tags: ["leader","side project","hobbies"]
 
 - name: Nocode
   logo: /images/sections/projects/no-code.png
