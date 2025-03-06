@@ -19,21 +19,23 @@ degrees:
     logo: /images/sections/education/NTU_logo.png
     # Can optionally show a different logo for dark theme
     # darklogo: /images/sections/education/tech_college.png
-  # grade: #(optional)
-  #   scale: CGPA
-  #   achieved: 3.6
-  #   outOf: 4
+    # grade: #(optional)
+    #   scale: CGPA
+    #   achieved: 3.6
+    #   outOf: 4
   extracurricularActivities:
   - Developed programs to process millions of waveform data for river roughness analysis which can achieve results in a short time and reduce the risk of field work.
   - Developed a software for complex and multifunctional error adjustment processing and developing GUI and DLL as interfaces, can potentially save 3,000 USD per year.
 
-  publications: #(optional)
+  publications:
+  #(optional)
   - title: "【Taiwan Research Highlight】 Sub-footprint LiDAR technique for riverbed grain size analysis"
     url: "https://trh.gase.most.ntnu.edu.tw/en/article/content/157"
-  customSections: #(optional)
-    - name: Thesis
-      content: Sub-Footprint Roughness Analysis for Riverbeds using Full-Waveform LiDAR Data.
-      url: "https://hdl.handle.net/11296/rsufk3"
+  customSections:
+  #(optional)
+  - name: Thesis
+    content: Sub-Footprint Roughness Analysis for Riverbeds using Full-Waveform LiDAR Data.
+    url: "https://hdl.handle.net/11296/rsufk3"
 
 - name: Exchange Student in Geodesy and Geomatics
   icon: fa-graduation-cap
@@ -45,7 +47,8 @@ degrees:
     # Can optionally show a different logo for dark theme
     # darklogo: /images/sections/education/university.jpg
 
-  extracurricularActivities: #(optional)
+  extracurricularActivities:
+  #(optional)
   - The College of geomatics of Wuhan University is the most famous surveying college in Asia.
   - Developed multi Synthetic-Aperture Radar (SAR) satellites signal data processing scripts by python.
 
@@ -58,8 +61,8 @@ degrees:
     logo: /images/sections/education/NCCU_logo.png
     # Can optionally show a different logo for dark theme
     # darklogo: /images/sections/education/university.jpg
-  extracurricularActivities: #(optional)
+  extracurricularActivities:
+  #(optional)
   - Satellites SAR data processing, UAV images non-distortion processing and image detection, and LiDAR data processing.
   - Developed a python based non distortion image processing program, which effectively saved 85% processing time
   - Developed true ortho-image processing scripts using Python and OpenCV and fortunately to receive a subsidy from MOST (Ministry of Science and Technology)
-
