@@ -74,26 +74,31 @@ resourceLinks:
 # You can also show a circular bar indicating the level of expertise on a certain skill
 badges:
 
-- type: soft-skill-indicator
-  name: 3+ yrs Firmware BIOS Engineer
-  percentage: 30
-  color: orange
+# - type: soft-skill-indicator
+#   name: 3+ yrs Firmware BIOS Engineer
+#   percentage: 30
+#   color: orange
 
-- type: soft-skill-indicator
-  name: 5+ yrs DevSecOps Engineer
-  percentage: 50
-  color: yellow
+# - type: soft-skill-indicator
+#   name: 5+ yrs DevSecOps Engineer
+#   percentage: 50
+#   color: yellow
 
-- type: soft-skill-indicator
-  name: 6+ yrs Software Engineer
-  percentage: 60
-  color: "#00adb5"
+# - type: soft-skill-indicator
+#   name: 6+ yrs Software Engineer
+#   percentage: 60
+#   color: "#00adb5"
 
 
 - type: certification
   name: AWS Certified Solutions Architect
   url: "https://www.credly.com/badges/1cf6338d-b9ea-4fa0-a74b-ba2830eb30fb"
   badge: "https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
+
+- type: hard-skill-indicator
+  name: 2025 Dell ISG Hachathon AI-For Special Award
+  # url: "https://www.linkedin.com/in/jy-hsu/overlay/1722047658352/single-media-viewer/?type=IMAGE&profileId=ACoAACZFksUBw59JxqxKQJvK7vNsJcO2d3X2JiA"
+  badge: "/images/sections/about/2025_ISG_Hackathon.png"
 
 - type: hard-skill-indicator
   name: FY25 Dell Game Changer Award - BIOS Feature
