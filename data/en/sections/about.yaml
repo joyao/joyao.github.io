@@ -90,11 +90,6 @@ badges:
 #   color: "#00adb5"
 
 
-- type: certification
-  name: AWS Certified Solutions Architect
-  url: "https://www.credly.com/badges/1cf6338d-b9ea-4fa0-a74b-ba2830eb30fb"
-  badge: "https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
-
 - type: hard-skill-indicator
   name: 2025 Dell ISG Hachathon AI-For Special Award
   # url: "https://www.linkedin.com/in/jy-hsu/overlay/1722047658352/single-media-viewer/?type=IMAGE&profileId=ACoAACZFksUBw59JxqxKQJvK7vNsJcO2d3X2JiA"
@@ -109,6 +104,11 @@ badges:
   name: FY23 Dell Game Changer Award - CI/CD Automation
   url: "https://www.linkedin.com/in/jy-hsu/overlay/1722047584463/single-media-viewer/?type=IMAGE&profileId=ACoAACZFksUBw59JxqxKQJvK7vNsJcO2d3X2JiA"
   badge: "/images/sections/about/FY24_game_changer.jpg"
+
+- type: certification
+  name: AWS Certified Solutions Architect
+  url: "https://www.credly.com/badges/1cf6338d-b9ea-4fa0-a74b-ba2830eb30fb"
+  badge: "https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png"
 
 - type: hard-skill-indicator
   name: 2020 IThome Keep Sharing Award - Modern Web
