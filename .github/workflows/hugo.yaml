@@ -30,25 +30,26 @@ jobs:
           submodules: recursive
           fetch-depth: 0
 
-      # Setup latest Hugo extended (0.152.6 as example)
+      # Setup latest stable Hugo extended
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3.5.1
+        uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.152.6'
+          # Using 'latest' is recommended to always get the most current stable version
+          hugo-version: 'latest' 
           extended: true
 
-      # Install Dart Sass (required by Toha)
-      - name: Install Dart Sass
-        run: sudo snap install dart-sass
+      # NOTE: Removed 'Install Dart Sass' step (sudo snap install). 
+      # Hugo Extended typically handles SCSS compilation directly, or 
+      # necessary tools are installed via the 'npm ci' step below.
 
-      # Configure GitHub Pages
+      # Configure GitHub Pages environment
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
 
-      # Install Node.js dependencies if any
+      # Install Node.js dependencies if any (e.g., PostCSS, specific SASS compilers)
       - name: Install Node.js dependencies
-        run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+        run: "[[ -f package.json ]] && npm ci || true"
 
       # Build Hugo site
       - name: Build with Hugo
@@ -60,6 +61,7 @@ jobs:
           hugo mod clean
           hugo mod get
           hugo mod tidy
+          # Use the base_url provided by the Pages environment
           hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
       # Upload artifact
