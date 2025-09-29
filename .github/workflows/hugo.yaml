@@ -22,31 +22,35 @@ defaults:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      HUGO_VERSION: 0.152.0
     steps:
+      # Checkout repo
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           submodules: recursive
           fetch-depth: 0
 
+      # Setup latest Hugo extended (0.152.6 as example)
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
+        uses: peaceiris/actions-hugo@v3.5.1
         with:
-          hugo-version: ${{ env.HUGO_VERSION }}
+          hugo-version: '0.152.6'
           extended: true
 
+      # Install Dart Sass (required by Toha)
       - name: Install Dart Sass
         run: sudo snap install dart-sass
 
+      # Configure GitHub Pages
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
 
+      # Install Node.js dependencies if any
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
 
+      # Build Hugo site
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
@@ -58,6 +62,7 @@ jobs:
           hugo mod tidy
           hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
 
+      # Upload artifact
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
