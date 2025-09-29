@@ -8,11 +8,11 @@ section:
   template: sections/about.html
 
 # your designation
-designation: Sr. Software Firmware Engineer
+designation: SoC Security Software TE/SDET
 # your company information
 company:
-  name: Dell Technologies.
-  url: "https://www.dell.com"
+  name: Google.
+  url: "https://about.google/"
 
 # your resume. this file path should be relative to you "static" directory
 # Dreprecated. Use resourceLinks instead.

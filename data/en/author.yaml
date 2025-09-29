@@ -12,12 +12,13 @@ contactInfo:
   linkedin: jy-hsu
   # researchgate: john-doe
 
-# some summary about what you do
+  # some summary about what you do
 summary:
-  - I am a Software Firmware Engineer
-  - I am a DevSecOps Engineer
-  - I am a Software Technical Leader
-  - I love servers
-  - I love to work with some fun projects
-  - I am familiar with Geomatics
-  - I am a certified Professional Survey Engineer
+- I am a Software Firmware Engineer
+- I am a DevSecOps Engineer
+- I am a Test Engineer
+- I am a Software Technical Leader
+- I love servers
+- I love to work with some fun projects
+- I am familiar with Geomatics
+- I am a certified Professional Survey Engineer
