@@ -1,7 +1,9 @@
-module github.com/joyao/joyao.github.io
+module github.com/hugo-themes/toha-example-site
 
-go 1.21
+go 1.25
 
-replace github.com/hugo-toha/toha/v4 => github.com/joyao/toha/v4 v4.0.0-20250929092419-9a9a2947706f
+// replace(
+//     github.com/hugo-toha/toha/v4 => ../toha
+// )
 
-require github.com/hugo-toha/toha/v4 v4.10.0 // indirect
+require github.com/hugo-toha/toha/v4 v4.12.0 // indirect
