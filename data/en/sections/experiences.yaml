@@ -20,13 +20,13 @@ experiences:
     # company overview
     # overview: Dell Technologies is the leader in digital transformation, providing digital technology solutions, products, and services to drive business success.
   positions:
-  - designation: SoC Security Software Test Engineer
+  - designation: SoC Security Software Development Engineer in Test
     start: September 2025
     # don't provide end date if you are currently working there. It will be replaced by "Present"
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Pixel SoC Secure-Boot / Secure-Manufacturing software test engineer
+    - SoC Security - Secure-Boot / Secure-Manufacturing
 - company:
     name: Dell Technologies
     url: "https://www.dell.com/"
