@@ -10,23 +10,16 @@ section:
 
   # Your experiences
 experiences:
-- company:
-    name: Google
-    url: "https://about.google/"
-    location: Hybrid, Taiwan
-    logo: /images/sections/experiences/Google_logo.svg
-    # Can optionally show a different logo for dark theme
-    # darkLogo: /images/sections/experiences/company1.jpg
-    # company overview
-    # overview: Dell Technologies is the leader in digital transformation, providing digital technology solutions, products, and services to drive business success.
-  positions:
-  - designation: SoC Security Software Development Engineer in Test
-    start: September 2025
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
-    responsibilities:
-    - SoC Security - Secure-Boot / Secure-Manufacturing
+# - company:
+#     name: Google
+#     url: "https://about.google/"
+#     location: Hybrid, Taiwan
+#     logo: /images/sections/experiences/Google_logo.svg
+#   positions:
+#   - designation: SoC Security Software Development Engineer in Test
+#     start: September 2025
+#     responsibilities:
+#     - SoC Security - Secure-Boot / Secure-Manufacturing
 - company:
     name: Dell Technologies
     url: "https://www.dell.com/"
