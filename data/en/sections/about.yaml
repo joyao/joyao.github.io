@@ -19,24 +19,7 @@ company:
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: "Hi there! 👋
-<br>
-I am an active **Software** / **Firmware** / **Full-Stack** / **DevSecOps** / **SDET** Engineer and **Open-Source Maintainer / Contributor**, who love learning new things, solving problems, sharing technical skills and constantly improving myself.\n
-
-
-
-At my current role, I've developed a systematic BIOS serial save feature (D4D), reducing engineers' debugging time and enhancing customer satisfaction and retention. I'm a staunch advocate for CI/CD automated BIOS code signing, release file creation and cutting-edge auto-testing systems, ensuring our releases are bug-free and lightning-fast.
-
-
-As a **Technical Leader**, I've led diverse teams in delivering major webGIS and software projects such as test automation framework, intergration systems, satellite RADAR data analysis, and urban planning systems.
-
-
-Outside of my day-to-day work, I hold an **AWS** Certified Solutions Architect certification, with a focus on cloud computing exploration. I actively contribute to **open-source** projects and engage with the developer community through tech meetups and conferences. I am committed to continuous learning of new technologies and methodologies to remain at the forefront of software firmware engineering trends.
-
-
-I also expertise in **Geomatics**, providing free consulting services and fostering discussions on spatial data. Currently collaborating long-term with a GIS development team.
-
-"
+summary: "Hi there! 👋<br>I am an active **Software** / **Firmware** / **Full-Stack** / **DevSecOps** / **SDET** Engineer and **Open-Source Maintainer / Contributor**, who love learning new things, solving problems, sharing technical skills and constantly improving myself.<br><br>At my current role, I've developed a systematic BIOS serial save feature (D4D), reducing engineers' debugging time and enhancing customer satisfaction and retention. I'm a staunch advocate for CI/CD automated BIOS code signing, release file creation and cutting-edge auto-testing systems, ensuring our releases are bug-free and lightning-fast.<br><br>As a **Technical Leader**, I've led diverse teams in delivering major webGIS and software projects such as test automation framework, intergration systems, satellite RADAR data analysis, and urban planning systems.<br><br>Outside of my day-to-day work, I hold an **AWS** Certified Solutions Architect certification, with a focus on cloud computing exploration. I actively contribute to **open-source** projects and engage with the developer community through tech meetups and conferences. I am committed to continuous learning of new technologies and methodologies to remain at the forefront of software firmware engineering trends.<br><br>I also expertise in **Geomatics**, providing free consulting services and fostering discussions on spatial data. Currently collaborating long-term with a GIS development team."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
