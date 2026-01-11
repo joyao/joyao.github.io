@@ -10,16 +10,16 @@ section:
 
   # Your experiences
 experiences:
-# - company:
-#     name: Google
-#     url: "https://about.google/"
-#     location: Hybrid, Taiwan
-#     logo: /images/sections/experiences/Google_logo.svg
-#   positions:
-#   - designation: SoC Security Software Development Engineer in Test
-#     start: September 2025
-#     responsibilities:
-#     - SoC Security - Secure-Boot / Secure-Manufacturing
+- company:
+    name: Google
+    url: "https://about.google/"
+    location: Hybrid, Taiwan
+    logo: /images/sections/experiences/Google_logo.svg
+  positions:
+  - designation: SoC Security Software Development Engineer in Test
+    start: September 2025
+    responsibilities:
+    - SoC Security - Secure-Boot / Secure-Manufacturing
 - company:
     name: Dell Technologies
     url: "https://www.dell.com/"
