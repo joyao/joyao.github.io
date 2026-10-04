@@ -104,6 +104,16 @@ badges:
   badge: "/images/sections/about/ITHome2024.png"
 
 - type: hard-skill-indicator
+  name: 2026 IThome Keep Sharing Award - IT Operation
+  url: "https://ithelp.ithome.com.tw/users/20108631/ironman/9120"
+  badge: "/images/sections/about/ITHome2026_IT.png"
+
+- type: hard-skill-indicator
+  name: 2026 IThome Keep Sharing Award - Career Experience
+  url: ""
+  badge: "/images/sections/about/ITHome2026_CE.png"
+
+- type: hard-skill-indicator
   name: Hacktoberfest 2024 Certification
   url: "https://www.holopin.io/hacktoberfest2024/userbadge/cm2xw4p8360680ciavzudab82"
   badge: "/images/sections/about/Hacktoberfest2024.png"
